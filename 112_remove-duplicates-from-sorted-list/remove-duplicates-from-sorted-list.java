@@ -1,3 +1,11 @@
+/*
+@Copyright:LintCode
+@Author:   Conan_1985
+@Problem:  http://www.lintcode.com/problem/remove-duplicates-from-sorted-list
+@Language: Java
+@Datetime: 17-05-17 14:11
+*/
+
 /**
  * Definition for ListNode
  * public class ListNode {
