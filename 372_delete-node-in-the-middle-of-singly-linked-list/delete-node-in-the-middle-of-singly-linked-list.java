@@ -1,3 +1,11 @@
+/*
+@Copyright:LintCode
+@Author:   Conan_1985
+@Problem:  http://www.lintcode.com/problem/delete-node-in-the-middle-of-singly-linked-list
+@Language: Java
+@Datetime: 17-05-17 11:43
+*/
+
 /**
  * Definition for ListNode.
  * public class ListNode {
