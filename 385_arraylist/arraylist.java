@@ -19,7 +19,7 @@ public class ArrayListManager {
         }
         return result;
     }
-
+    
     /**
      * @param list: The list you need to clone
      * @return A deep copyed array list from the given list
@@ -32,7 +32,7 @@ public class ArrayListManager {
         }
         return result;
     }
-
+    
     /**
      * @param list: The array list to find the kth element
      * @param k: Find the kth element
@@ -43,7 +43,7 @@ public class ArrayListManager {
         int result = list.get(k);
         return result;
     }
-
+    
     /**
      * @param list: The array list
      * @param k: Find the kth element, set it to val
@@ -53,7 +53,7 @@ public class ArrayListManager {
         // write your code here
         list.set(k, val);
     }
-
+    
     /**
      * @param list: The array list to remove the kth element
      * @param k: Remove the kth element
@@ -62,7 +62,7 @@ public class ArrayListManager {
         // write tour code here
         list.remove(k);
     }
-
+    
     /**
      * @param list: The array list.
      * @param val: Get the index of the first element that equals to val
@@ -72,6 +72,5 @@ public class ArrayListManager {
         // Write your code here
         int result = list.indexOf(val);
         return result;
-        // Just check for contribution.
     }
 }
