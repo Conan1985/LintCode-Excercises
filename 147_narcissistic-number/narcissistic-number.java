@@ -3,7 +3,7 @@
 @Author:   Conan_1985
 @Problem:  http://www.lintcode.com/problem/narcissistic-number
 @Language: Java
-@Datetime: 17-05-14 12:05
+@Datetime: 17-05-30 01:49
 */
 
 class Solution {
@@ -19,6 +19,7 @@ class Solution {
                 result.add(i);
             return result;
         }
+
         for (int i = pow(10, n-1); i < pow(10, n); ++i) {
             int j = i;
             int s = 0;
